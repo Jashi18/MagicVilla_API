@@ -10,6 +10,7 @@ namespace MagicVillaAPI.Models
         public string Details { get; set; }
         public int Occupancy { get; set; }
         public int Sqft { get; set; }
+        public int Rate { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     }
 }

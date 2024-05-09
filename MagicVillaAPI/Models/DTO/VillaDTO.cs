@@ -11,5 +11,6 @@ namespace MagicVillaAPI.Models.DTO
         public string Name { get; set; }
         public int Occupancy { get; set; }
         public int Sqft { get; set; }
+        public int Rate { get; set; }
     }
 }
